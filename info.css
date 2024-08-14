@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-image: url(https://cdn.dribbble.com/userupload/14732577/file/original-45886686bca05ec51f848b78ff149be1.gif);
+    background-position: center;
+    background-size: 100%;
+    background-blend-mode: lighten;
+  }
+  
+  .clg {
+    width: 540;
+    height: 350;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  h2 {
+    text-align: right;
+    margin-right: 300px;
+    font-family: "garamond";
+    font-size: 30px
+  }
+  
+  p {
+    position: right;
+    font-size: 20px;
+    padding: auto;
+    margin-bottom: auto;
+    color: wheat;
+  }
+  
+  .logo {
+    float: right;
+  }
+  
+  nav {
+  
+    background-color: (45deg, #1F618D, #8E44AD, #F8F9F9, #85C1E9, #D2B4DE);
+  }
+  
+  nav ul {
+    margin-top: 10px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: -6px;
+  
+  }
+  
+  nav li {
+    height: 25px;
+  }
+  
+  nav {
+    text-align: left;
+  }
+  
+  nav a {
+    height: 100%;
+    padding: 0px 20px;
+    text-decoration: none;
+    align-items: center;
+    color: white  ;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: grey;
+  
+  }
+  
+  nav li:first-child {
+    margin-right: auto;
+    text-size-adjust: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .hero-container {
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw -1300ox)/2);
+  }
+  
+  .column-left {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+  }
+  
+  .column-left h1 {
+    margin-bottom: 2rem;
+    font-size: 60px;
+    margin-left: 40px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .column-left p {
+margin-top: 30px;
+ text-align: center;
+    font-size: 25px;
+    color:white;
+  
+  }
+.banner video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media(min-aspect-ratio: 16/9) {
+  .banner video{
+    width: 100%;
+    height: auto;
+  }
+}
+  
