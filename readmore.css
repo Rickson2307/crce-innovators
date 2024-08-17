@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  @media(min-aspect-ratio: 16/9) {
+    .banner video{
+      width: 100%;
+      height: auto;
+    }
+    
+  }  
 nav {
 
     background-color: (45deg, #1F618D, #8E44AD, #F8F9F9, #85C1E9, #D2B4DE);
