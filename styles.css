@@ -46,13 +46,13 @@ nav {
 }
 
 nav ul {
-  margin-top: 10px;
+  margin-top: 4px;
   width: 100%;
   list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: -6px;
+  
 
 }
 
@@ -72,10 +72,10 @@ nav a {
   color: white  ;
   font-size: 25px;
   font-weight: bold;
+  border-bottom: 2px solid transparent;   
 }
-
 nav a:hover {
-  border-bottom: grey;
+  border-bottom: 2px solid gray; 
 
 }
 
