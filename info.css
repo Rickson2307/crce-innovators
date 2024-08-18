@@ -34,6 +34,7 @@
     padding: auto;
     margin-bottom: auto;
     color: wheat;
+    font-family:sans-serif;
   }
   
   .logo {
@@ -85,32 +86,15 @@
     font-family: 'Times New Roman', Times, serif;
   }
   
-  .hero-container {
-    display:flex;
-    grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3rem calc((100vw -1300ox)/2);
-  }
-  
-  .column-left {
-    display: flex;
-    justify-content: center;
-    padding: 0rem 2rem;
-  }
-  
-  .column-left h1 {
-    margin-bottom: 2rem;
-    font-size: 60px;
-    margin-left: 40px;
-    color:white;
-    font-family:'Times New Roman', Times, serif;
-  }
+
   
   .column-left p {
-margin-top: 30px;
- text-align: center;
-    font-size: 25px;
+margin-top: 32px;
+ text-align: left;
+     font-size: 22px;
     color:white;
+    margin-left:40px;
+    margin-right: 40px;
   
   }
 .banner video{
