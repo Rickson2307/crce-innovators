@@ -47,13 +47,13 @@
   }
   
   nav ul {
-    margin-top: 10px;
+    margin-top:;
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: -6px;
+    margin-bottom: 60px;
   
   }
   
@@ -92,7 +92,7 @@
 margin-top: 32px;
  text-align: left;
      font-size: 22px;
-    color:white;
+    color: wheat;
     margin-left:40px;
     margin-right: 40px;
   

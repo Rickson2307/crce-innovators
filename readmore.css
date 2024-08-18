@@ -16,7 +16,7 @@
     
   }  
   body{
-    background-image: url('https://images.unsplash.com/photo-1617957796415-f81179d8fd50?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
 
 }
@@ -95,5 +95,6 @@ nav {
     text-align:left;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }

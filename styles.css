@@ -46,7 +46,7 @@ nav {
 }
 
 nav ul {
-  margin-top: 4px;
+  margin-top: ;
   width: 100%;
   list-style: none;
   display: flex;
@@ -137,9 +137,9 @@ nav li:first-child {
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight:bolder;
   height: 58px;
   justify-content: center;
   letter-spacing: .25px;
