@@ -15,6 +15,11 @@
     }
     
   }  
+  body{
+    background-image: url('https://media.istockphoto.com/id/1303046461/photo/abstract-background-pink-red-white-color-gradient-trend-color-current-springtime-defocused.jpg?s=2048x2048&w=is&k=20&c=X11F_Ui0z6w4Zl-Yik8wlz44ETp5ycUO5sl3QMQge0k=');
+    background-size: cover;
+
+}
 nav {
 
     background-color: (45deg, #1F618D, #8E44AD, #F8F9F9, #85C1E9, #D2B4DE);
@@ -44,7 +49,7 @@ nav {
     padding: 0px 20px;
     text-decoration: none;
     align-items: center;
-    color: white  ;
+    color: black  ;
     font-size: 25px;
     font-weight: bold;
     border-bottom: 2px solid transparent;   
@@ -58,4 +63,15 @@ nav {
     margin-right: auto;
     text-size-adjust: 50px;
     font-family: 'Times New Roman', Times, serif;
+  }
+  .banner_image img{
+    height: 300px;
+    width: 50%;
+    margin-left: 350px;
+  
+    
+  }
+  .post h1{
+    font-size: 3rem;
+
   }
